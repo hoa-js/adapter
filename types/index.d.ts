@@ -2,7 +2,7 @@
 // Project: https://github.com/hoa-js/adapter
 // Definitions by: nswbmw
 
-import type { Hoa } from 'hoa'
+import type { Hoa, HoaExtension } from 'hoa'
 import type { Server } from 'http'
 
 /**
@@ -16,7 +16,7 @@ export interface NodeServerOptions {
  * Node.js Server Adapter Extension
  * Adds HTTP server capabilities to Hoa applications using Node.js built-in http module
  */
-export declare function nodeServer(options?: NodeServerOptions): (app: Hoa) => void
+export declare function nodeServer(options?: NodeServerOptions): HoaExtension
 
 /**
  * Module augmentation: extend Hoa with listen method
