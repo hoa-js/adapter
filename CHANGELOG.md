@@ -1,3 +1,7 @@
+## v0.1.4 / 2026-06-14
+
+- chore(deps): update deps
+
 ## v0.1.3 / 2026-03-29
 
 - chore(deps): update deps
